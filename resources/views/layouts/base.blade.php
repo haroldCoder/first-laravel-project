@@ -8,8 +8,12 @@
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
     <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Numero De Celular</label>
+        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+573006397804">
+    </div>
+    <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Edad</label>
-        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+573006397804">
+        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="18">
     </div>
     <button class="px-4 py-2 rounded bg-primary text-white mt-6">Agregar</button>
 </section>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClienteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\ClientController@index');
+Route::post('/saveclients', ['App\Http\Controllers\ClientController', 'saveClients'])->name('save.clients');

@@ -1,5 +1,3 @@
-
-alert(4)
 fetch('{{ route("save.clients") }}', {
     method: 'POST',
     headers: {

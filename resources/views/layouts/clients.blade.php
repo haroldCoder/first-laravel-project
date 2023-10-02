@@ -5,6 +5,7 @@
         <th scope="col">Name</th>
         <th scope="col">Email</th>
         <th scope="col">Age</th>
+        <th></th>
       </tr>
     </thead>
     <tbody class="text-primary">
@@ -14,6 +15,7 @@
             <td>{{$client->name}}</td>
             <td>{{$client->email}}</td>
             <td>{{$client->age}}</td>
+            <td><button><i class="fas fa-trash"></i></button></td>
           </tr>
       @endforeach
     </tbody>
